@@ -16,9 +16,9 @@ public class PracticeFromTest {
     @BeforeAll
     public static void setUpMain(){
         Configuration.browserSize = "1920x1080";
-        Configuration.browser= "firefox";
+//        Configuration.browser= "firefox";
         Configuration.baseUrl="https://demoqa.com";
-        Configuration.holdBrowserOpen = true;
+//        Configuration.holdBrowserOpen = true;
     }
 
     @Test
@@ -57,6 +57,7 @@ public class PracticeFromTest {
                 text(Strings.HOBBIES),
                 text(Strings.PICTURE_NAME),
                 text(Strings.CURRENT_ADDRESS),
-                text(Strings.STATE+" "+Strings.CITY));
+                text(Strings.STATE+" "+Strings.CITY)
+        );
     }
 }
