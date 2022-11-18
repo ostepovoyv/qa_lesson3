@@ -1,6 +1,6 @@
 package com.practiceForm.test;
 
-public abstract class Strings {
+public abstract class PracticeFormData {
     public static final String FIRST_NAME = "Oleg";
     public static final String LAST_NAME = "Stepovoy";
     public static final String EMAIL = "test@test.com";
